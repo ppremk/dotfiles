@@ -45,6 +45,7 @@ cask 'zoomus'
 cask 'todoist'
 
 # Fonts
+cask 'font-hack-nerd-font'
 cask 'font-source-code-pro-for-powerline'
 cask 'font-source-code-pro'
 cask 'font-source-sans-pro'
