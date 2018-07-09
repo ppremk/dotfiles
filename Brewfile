@@ -1,15 +1,19 @@
+# Requirements:
+# homebrew - http://brew.sh/
+# brew bundle - https://github.com/Homebrew/homebrew-bundle
+# cask - https://caskroom.github.io/ (installed automatically)
+# mas-cli - https://github.com/argon/mas
+
 # Taps
+cask_args appdir: '/Applications'
 tap 'caskroom/cask'
-tap 'caskroom/eid'
 tap 'caskroom/fonts'
 tap 'caskroom/versions'
 tap 'homebrew/bundle'
 
 # Install Binaries
-brew 'awscli'
-brew 'bash' # Bash 4
-brew 'coreutils' # Those that come with macOS are outdated
 brew 'git'
+brew 'git-lfs'
 brew 'grep'
 brew 'mackup'
 brew 'mas'
@@ -17,48 +21,28 @@ brew 'trash'
 brew 'tree'
 brew 'zsh'
 brew 'zsh-completions'
+brew 'tmux'
+brew 'curl'
+brew 'wget'
+brew 'grep'
 
 # Development
-brew 'php'
-brew 'mysql'
 brew 'node'
+brew 'yarn'
 
 # Apps
-cask 'aerial'
 cask 'alfred'
-cask 'caffeine'
 cask 'docker'
-cask 'eid-be'
-cask 'eid-be-viewer'
-cask 'firefox'
-cask 'google-backup-and-sync'
 cask 'google-chrome'
-cask 'gpgtools'
 cask 'grammarly'
-cask 'insomnia'
-cask 'java'
-cask 'mysqlworkbench'
-cask 'now'
-cask 'phpstorm'
-cask 'quip'
-cask 'sequel-pro'
-cask 'shuttle'
 cask 'slack'
-cask 'sublime-text'
-cask 'torbrowser'
-cask 'tower'
-cask 'transmit'
-cask 'vagrant'
-cask 'virtualbox'
-cask 'virtualbox-extension-pack'
-cask 'vlc'
-
-# Quicklook
-cask 'qlcolorcode'
-cask 'qlmarkdown'
-cask 'quicklook-json'
-cask 'quicklook-csv'
-cask 'qlstephen'
+cask 'visual-studio-code'
+cask 'dropbox'
+cask 'slack'
+cask 'postman'
+cask 'iterm2'
+cask 'zoomus'
+cask 'todoist'
 
 # Fonts
 cask 'font-source-code-pro-for-powerline'
@@ -67,13 +51,14 @@ cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 
 # Install Mac App Store apps
+mas 'Xcode', id: 497799835
 mas '1Password', id: 1333542190
-mas 'Byword', id: 420212497
-mas 'Deckset', id: 847496013
-mas 'Giphy Capture', id: 668208984
-mas 'Sip', id: 507257563
-mas 'Spark', id: 1176895641
 mas 'The Unarchiver', id: 425424353
-mas 'Things', id: 904280696
-mas 'Tweetbot', id: 1384080005
 mas 'WhatsApp', id: 1147396723 
+mas 'Reeder 3', id: 880001334
+mas 'Window Tidy', id: 456609775
+mas 'Pixelmator', id: 407963104
+mas 'TextWrangler', id: 404010395
+mas 'Caffeine', id: 411246225
+mas 'Helium', id: 1054607607
+mas 'Fantastical 2', id: 975937182
