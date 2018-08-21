@@ -48,6 +48,8 @@ cask 'bartender'
 cask 'lastpass'
 cask 'screenflow'
 cask 'mousepose'
+cask 'fantastical'
+cask 'the-unarchiver'
 
 # Fonts
 cask 'font-hack-nerd-font'
@@ -59,7 +61,7 @@ cask 'font-source-serif-pro'
 # Install Mac App Store apps
 #mas 'Xcode', id: 497799835
 #mas '1Password', id: 1333542190
-mas 'The Unarchiver', id: 425424353
+#mas 'The Unarchiver', id: 425424353
 #mas 'WhatsApp', id: 1147396723 
 #mas 'Reeder 3', id: 880001334
 #mas 'Window Tidy', id: 456609775
@@ -67,4 +69,4 @@ mas 'The Unarchiver', id: 425424353
 #mas 'TextWrangler', id: 404010395
 #mas 'Caffeine', id: 411246225
 #mas 'Helium', id: 1054607607
-mas 'Fantastical 2', id: 975937182
+#mas 'Fantastical 2', id: 975937182
